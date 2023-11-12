@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------
-    Theme Name: AlveOne
-    Theme URI: http://templatehouse.net/AlveOne/
+    Theme Name: RF Ingenieros
+    Theme URI: http://templatehouse.net/RF Ingenieros/
     Description: One Page Parallax HTML5 Template
     Author: templatehouse
     Author URI: https://themeforest.net/user/templatehouse_net
@@ -48,11 +48,20 @@ h6 {
   position: fixed;
   overflow: hidden;
   height: 100%;
-  background: #0d6488;
+  background: #ffffff;
   left: 0;
   top: 0;
   z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.preloader img {
+  width: 40%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 .circle {
   position: relative;
   width: 250px;
@@ -66,7 +75,7 @@ h6 {
   background: #fff;
 }
 .circle:after {
-  content: "alveone";
+  content: "RF Ingenieros";
   position: absolute;
   top: 100px;
   width: 250px;
@@ -289,7 +298,7 @@ h6 {
   margin-right: auto !important;
 }
 .HeaderStyle-1 .navbar .navbar-brand .logo-light {
-  max-width: 220px;
+  max-width: 190px;
 }
 .HeaderStyle-1 .navbar .navbar-brand .logo-dark {
   max-width: 220px;
