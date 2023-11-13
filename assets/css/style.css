@@ -232,7 +232,7 @@ h6 {
 }
 .HeaderStyle-1 .nav-sticky {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px 0px;
+  padding: 5px 0px;
   box-shadow: 0px 4px 20px rgba(5, 47, 97, 0.08);
 }
 .HeaderStyle-1 .nav-sticky .navbar-nav .nav-item .nav-link {
@@ -413,7 +413,7 @@ h6 {
   background-image: url("../images/banner-bg2.jpg");
 }
 .banner .banner-bg-three {
-  background-image: url("../images/banner-bg2.jpg");
+  background-image: url("../images/banner-bg3.jpg");
 }
 .banner .banner-item {
   background-size: cover;
@@ -629,10 +629,10 @@ h6 {
 
 .about {
   background-color: #f8fbfe;
-  background-image: url("assets/images/n-1-bg.png");
+  background-image: url("../images/n-1-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 80px 0;
+  padding: 200px 0;
 }
 .about_block {
   position: relative;
@@ -1523,24 +1523,31 @@ h6 {
   Block - 196
 --------------------*/
 
-.block-196 {
+.partners {
   padding: 100px 0px;
   background-color: #f1f9fc;
+  background-image: url('../images/brands.jpg'); /* Add this line */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  position: relative;
 }
-.block-196 .soft-m-partner-content {
+
+.partners .soft-m-partner-content {
   margin-top: 20px;
+  z-index: 1; /* Ensure content stays above the background image */
 }
-.block-196 .soft-m-partner-content li {
+
+.partners .soft-m-partner-content li {
   margin: 32px 32px;
 }
-.block-196 .soft-m-partner-content li img {
+.partners .soft-m-partner-content li img {
   filter: grayscale(1);
   transition: 0.3s all ease-in-out;
 }
-.block-196 .soft-m-partner-content li img:hover {
+.partners .soft-m-partner-content li img:hover {
   filter: grayscale(0);
 }
-.block-196 .soft-m-partner-btn {
+.partners .soft-m-partner-btn {
   height: 60px;
   width: 230px;
   margin: 0 auto;
@@ -1551,10 +1558,10 @@ h6 {
   background: linear-gradient(90deg, #102465 0%, #00acf0 100%);
   background-size: 300%, 1px;
 }
-.block-196 .soft-m-partner-btn:hover {
+.partners .soft-m-partner-btn:hover {
   background-position: 100%;
 }
-.block-196 .soft-m-partner-btn a {
+.partners .soft-m-partner-btn a {
   color: #fff;
   width: 100%;
   display: block;
@@ -1562,15 +1569,15 @@ h6 {
   font-weight: 500;
   transition: 0.3s all ease-in-out;
 }
-.block-196 ul li {
+.partners ul li {
   list-style: none;
   display: inline-block;
 }
-.block-196 .soft-m-partner-content li img {
+.partners .soft-m-partner-content li img {
   filter: grayscale(1);
   transition: 0.3s all ease-in-out;
 }
-.block-196 .soft-m-partner-content li img:hover {
+.partners .soft-m-partner-content li img:hover {
   filter: grayscale(0);
 }
 
