@@ -903,7 +903,7 @@ h6 {
   -o-transition: color 0.3s linear;
   transition: color 0.3s linear;
 }
-.block-47 .business_features_item_two .mealvbody h3 {
+.block-47 .business_features_item_two .merfbody h3 {
   margin-bottom: 12px;
   font-size: 20px;
   -webkit-transition: color 0.3s linear;
@@ -1526,7 +1526,7 @@ h6 {
 .partners {
   padding: 100px 0px;
   background-color: #f1f9fc;
-  background-image: url('../images/brands.jpg'); /* Add this line */
+  background-image: url("../images/brands.jpg"); /* Add this line */
   background-size: cover; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
   position: relative;
@@ -1585,19 +1585,19 @@ h6 {
   Block - 198
 --------------------*/
 
-.block-198 .alvabout-section {
+.block-198 .rfabout-section {
   padding-top: 60px;
 }
 .block-198 span {
   color: #0395ce;
 }
-.block-198 .alvabout-section .alvabout-title-text {
+.block-198 .rfabout-section .rfabout-title-text {
   padding-top: 25px;
 }
-.block-198 .alvabout-content .alvabout-title-text {
+.block-198 .rfabout-content .rfabout-title-text {
   max-width: 455px;
 }
-.block-198 .alvabout-content .alvabout-list li {
+.block-198 .rfabout-content .rfabout-list li {
   width: 50%;
   float: left;
   color: #282350;
@@ -1606,7 +1606,7 @@ h6 {
   position: relative;
   margin-bottom: 18px;
 }
-.block-198 .alvabout-content .alvabout-list li:after {
+.block-198 .rfabout-content .rfabout-list li:after {
   left: 0;
   top: -3px;
   color: #25d98f;
@@ -1616,16 +1616,16 @@ h6 {
   position: absolute;
   font-family: "Font Awesome 5 Free";
 }
-.block-198 .alvabout-content .alvabout-img {
+.block-198 .rfabout-content .rfabout-img {
   z-index: 1;
   padding-left: 40px;
 }
-.block-198 .alvabout-content .alvabout-img .ab-shape1 {
+.block-198 .rfabout-content .rfabout-img .ab-shape1 {
   top: 30px;
   left: -10px;
   z-index: -1;
 }
-.block-198 .alvabout-content .alvabout-img .ab-shape2 {
+.block-198 .rfabout-content .rfabout-img .ab-shape2 {
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -1633,12 +1633,12 @@ h6 {
 .block-198 {
   padding: 115px 0px 75px;
 }
-.block-198 .alvexp-img .ab-shape1 {
+.block-198 .rfexp-img .ab-shape1 {
   top: 60px;
   left: -5px;
   z-index: -1;
 }
-.block-198 .alvexp-img .ab-shape2 {
+.block-198 .rfexp-img .ab-shape2 {
   bottom: 20px;
   right: 20px;
   z-index: -1;
@@ -1646,10 +1646,10 @@ h6 {
 .block-198 .dio-exp-text-area {
   max-width: 520px;
 }
-.block-198 .dio-exp-text-area .alvabout-text {
+.block-198 .dio-exp-text-area .rfabout-text {
   margin-top: 30px;
 }
-.block-198 .dio-exp-text-area .alvexp-btn {
+.block-198 .dio-exp-text-area .rfexp-btn {
   color: #fff;
   height: 48px;
   width: 155px;
@@ -1659,11 +1659,11 @@ h6 {
   border-radius: 40px;
   background-color: #390ed2;
 }
-.block-198 .dio-exp-text-area .alvexp-btn a {
+.block-198 .dio-exp-text-area .rfexp-btn a {
   width: 100%;
   display: block;
 }
-.block-198 .dio-exp-text-area .alvexp-btn:before {
+.block-198 .dio-exp-text-area .rfexp-btn:before {
   background-color: #ff6700;
 }
 .block-198 .skill-progress-bar {
@@ -2507,36 +2507,36 @@ h6 {
   padding-bottom: 0;
   position: relative;
 }
-.footerWhite .alvfooter-widget .alvwidget-title {
+.footerWhite .rffooter-widget .rfwidget-title {
   font-size: 16px;
   color: #05071f;
   font-weight: 700;
   padding-bottom: 20px;
 }
-.footerWhite .alvfooter-widget .alvfooter-logo {
+.footerWhite .rffooter-widget .rffooter-logo {
   margin-bottom: 18px;
 }
-.footerWhite .alvfooter-widget p {
+.footerWhite .rffooter-widget p {
   max-width: 220px;
   line-height: 1.875;
 }
-.footerWhite .alvfooter-widget .alvpayment-mathod {
+.footerWhite .rffooter-widget .rfpayment-mathod {
   margin-top: 30px;
 }
-.footerWhite .alvfooter-widget ul li {
+.footerWhite .rffooter-widget ul li {
   width: 50%;
   float: left;
   font-size: 14px;
   padding-left: 15px;
   margin-bottom: 15px;
 }
-.footerWhite .alvfooter-widget ul li a {
+.footerWhite .rffooter-widget ul li a {
   color: #05071f;
   font-weight: 500;
   position: relative;
   transition: 0.3s all ease-in-out;
 }
-.footerWhite .alvfooter-widget ul li a:before {
+.footerWhite .rffooter-widget ul li a:before {
   left: -15px;
   top: 0px;
   content: "";
@@ -2545,7 +2545,7 @@ h6 {
   position: absolute;
   font-family: "Font Awesome 5 Free";
 }
-.footerWhite .alvfooter-widget ul li a:after {
+.footerWhite .rffooter-widget ul li a:after {
   content: "";
   position: absolute;
   height: 1px;
@@ -2555,19 +2555,19 @@ h6 {
   background-color: #0072fd;
   transition: 0.3s all ease-in-out;
 }
-.footerWhite .alvfooter-widget ul li a:hover {
+.footerWhite .rffooter-widget ul li a:hover {
   color: #0072fd;
   margin-left: 10px;
 }
-.footerWhite .alvfooter-widget ul li a:hover:after {
+.footerWhite .rffooter-widget ul li a:hover:after {
   width: 100%;
 }
-.footerWhite .alvfooter-widget {
+.footerWhite .rffooter-widget {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
 }
 
-.footerWhite .alvfooter-widget h4 {
+.footerWhite .rffooter-widget h4 {
   width: 45%;
   flex: 0 0 auto; /* Basis, Grow, and Shrink set to auto */
   font-size: 12px;
@@ -2578,7 +2578,7 @@ h6 {
   box-sizing: border-box; /* Include padding and border in the width */
 }
 
-.footerWhite .alvfooter-widget h4 i {
+.footerWhite .rffooter-widget h4 i {
   left: 0;
   top: 2px;
   color: #0395ce;
@@ -2586,67 +2586,68 @@ h6 {
   margin-right: 5px;
   position: absolute;
 }
-.footerWhite .alvfooter-logo img {
+.footerWhite .rffooter-logo img {
   max-width: 200px;
 }
-.footerWhite .alvfooter-widget h4 span {
+.footerWhite .rffooter-widget h4 span {
   font-weight: 400;
   margin-top: 10px;
   display: block;
   color: #818181;
 }
-.footerWhite .alvfooter-widget .download-btn {
+.footerWhite .rffooter-widget .download-btn {
   width: 100%;
   margin-top: 20px;
   display: inline-block;
 }
-.footerWhite .alvfooter-widget .download-btn a {
+.footerWhite .rffooter-widget .download-btn a {
   margin-right: 10px;
 }
-.footerWhite .alvfooter-widget .alvfooter-social {
+.footerWhite .rffooter-widget .rffooter-social {
   margin-top: 15px;
 }
-.footerWhite .alvfooter-widget .alvfooter-social a {
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
+.footerWhite .rffooter-widget .rffooter-social a {
+  font-size: 24px; /* Ajusta el tamaño de los íconos */
+  height: 50px; /* Altura del contenedor */
+  width: 50px; /* Ancho del contenedor */
+  border-radius: 50%; /* Para un círculo perfecto */
   background-color: #fff;
-  line-height: 30px;
+  line-height: 50px; /* Ajusta el centrado vertical */
   text-align: center;
-  margin-right: 5px;
+  margin-right: 15px; /* Espaciado entre los íconos */
   display: inline-block;
   transition: 0.3s all ease-in-out;
   box-shadow: 0px 0px 9px 0px rgba(15, 54, 131, 0.07);
 }
-.footerWhite .alvfooter-widget .alvfooter-social a:nth-child(1) {
+.footerWhite .rffooter-widget .rffooter-social a:nth-child(1) {
   color: #16599b;
 }
-.footerWhite .alvfooter-widget .alvfooter-social a:nth-child(2) {
-  color: #03a9f4;
+.footerWhite .rffooter-widget .rffooter-social a:nth-child(2) {
+  color: #3ecf00;
 }
-.footerWhite .alvfooter-widget .alvfooter-social a:nth-child(3) {
+.footerWhite .rffooter-widget .rffooter-social a:nth-child(3) {
   color: #ea4c89;
 }
-.footerWhite .alvfooter-widget .alvfooter-social a:nth-child(4) {
+.footerWhite .rffooter-widget .rffooter-social a:nth-child(4) {
   color: #0d6fff;
 }
-.footerWhite .alvfooter-widget .alvfooter-social a:hover {
+.footerWhite .rffooter-widget .rffooter-social a:hover {
   transform: translateY(5px);
 }
-.footerWhite .alvfooter-copyright {
+.footerWhite .rffooter-copyright {
   color: #373a5b;
   font-size: 14px;
   margin-top: 25px;
   font-weight: 500;
 }
-.footerWhite .alvfooter-copyright .alvfooter-copyright-content {
+.footerWhite .rffooter-copyright .rffooter-copyright-content {
   padding: 25px 0px 15px;
   border-top: 2px solid #dee2ef;
 }
-.footerWhite .alvfooter-copyright .alvcopyright-menu {
+.footerWhite .rffooter-copyright .rfcopyright-menu {
   float: right;
 }
-.footerWhite .alvfooter-copyright .alvcopyright-menu a {
+.footerWhite .rffooter-copyright .rfcopyright-menu a {
   margin-left: 35px;
 }
 @keyframes left-right-move {
@@ -2660,7 +2661,7 @@ h6 {
     transform: translateX(-100px);
   }
 }
-.footerWhite .alvfooter-shape3 {
+.footerWhite .rffooter-shape3 {
   left: 0;
   right: 0;
   opacity: 1;
@@ -2668,10 +2669,14 @@ h6 {
   top: 100px;
   margin: 0 auto;
   text-align: center;
-  animation-duration: 25s;
+  animation-duration: 20s;
   animation-name: left-right-move;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.contact-info {
+  margin-bottom: 10px; /* Adds space between each line */
 }
 
 /*------------------
