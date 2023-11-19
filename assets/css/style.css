@@ -461,14 +461,27 @@ h6 {
   font-size: 40px !important;
   border-radius: 50% !important;
   color: #fff !important;
-  background-color: #0d6488 !important;
+  background-color: #0d6287 !important;
   transition: 0.5s all ease;
+}
+@media (max-width: 1024px) {
+  .banner .owl-prev {
+    top: 90%;
+    background-color: #0d6287 Cambia el color de fondo, por ejemplo */
+  }
 }
 .banner .owl-prev i {
   line-height: 50px;
 }
 .banner .owl-prev:hover {
-  background: #011a41 !important;
+  background: #B6DC18 !important;
+  color: #2b2b2b !important;
+}
+@media (max-width: 1024px) {
+  .banner .owl-prev:hover {
+    top: 90%;
+    background-color: #B6DC18 !important; /* Cambia el color de fondo, por ejemplo */
+  }
 }
 .banner .owl-next {
   position: absolute;
@@ -482,11 +495,24 @@ h6 {
   background-color: #0d6488 !important;
   transition: 0.5s all ease;
 }
+@media (max-width: 1024px) {
+  .banner .owl-next {
+    top: 90%;
+    background-color: rgba(13, 98, 135, 0.306) !important; /* Cambia el color de fondo, por ejemplo */
+  }
+}
 .banner .owl-next i {
   line-height: 50px;
 }
 .banner .owl-next:hover {
-  background: #011a41 !important;
+  color: #2b2b2b !important;
+  background: #B6DC18 !important;
+}
+@media (max-width: 1024px) {
+  .banner .owl-next:hover {
+    top: 90%;
+    background-color: #B6DC18 !important; /* Cambia el color de fondo, por ejemplo */
+  }
 }
 @media only screen and (min-width: 1800px) {
   .banner .banner-item {
