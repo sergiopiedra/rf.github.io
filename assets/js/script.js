@@ -633,7 +633,7 @@
   });
 
   // SmoothLink
-  $(".HeaderStyle-1 .nav-item a, .mouse-down a").on("click", function (event) {
+  $(".Header .nav-item a, .mouse-down a").on("click", function (event) {
     var $anchor = $(this);
     $("html, body")
       .stop()

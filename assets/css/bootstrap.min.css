@@ -7571,6 +7571,7 @@ button.bg-dark:hover {
 }
 .mb-4,
 .my-4 {
+  text-align: justify;
   margin-bottom: 1.5rem !important;
 }
 .ml-4,
