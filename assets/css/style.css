@@ -451,7 +451,7 @@ h6 {
 .banner .banner-item .banner-content h1 {
   font-size: 65px;
 }
-.banner .owl-prev {
+.banner .previous {
   position: absolute;
   top: 45%;
   left: 20px;
@@ -464,25 +464,25 @@ h6 {
   transition: 0.5s all ease;
 }
 @media (max-width: 1024px) {
-  .banner .owl-prev {
+  .banner .previous {
     top: 90%;
     background-color: #0d6287;
   }
 }
-.banner .owl-prev i {
+.banner .previous i {
   line-height: 50px;
 }
-.banner .owl-prev:hover {
+.banner .previous:hover {
   background: #b6dc18 !important;
   color: #2b2b2b !important;
 }
 @media (max-width: 1024px) {
-  .banner .owl-prev:hover {
+  .banner .previous:hover {
     top: 90%;
     background-color: #b6dc18 !important; /* Cambia el color de fondo, por ejemplo */
   }
 }
-.banner .owl-next {
+.banner .next {
   position: absolute;
   top: 45%;
   right: 20px;
@@ -495,20 +495,20 @@ h6 {
   transition: 0.5s all ease;
 }
 @media (max-width: 1024px) {
-  .banner .owl-next {
+  .banner .next {
     top: 90%;
     background-color: #0d6488 !important; /* Cambia el color de fondo, por ejemplo */
   }
 }
-.banner .owl-next i {
+.banner .next i {
   line-height: 50px;
 }
-.banner .owl-next:hover {
+.banner .next:hover {
   color: #2b2b2b !important;
   background: #b6dc18 !important;
 }
 @media (max-width: 1024px) {
-  .banner .owl-next:hover {
+  .banner .next:hover {
     top: 90%;
     background-color: #b6dc18 !important; /* Cambia el color de fondo, por ejemplo */
   }
@@ -641,10 +641,10 @@ h6 {
   animation-name: fadeInUp;
   animation-delay: 0.7s;
 }
-.banner .owl-prev i {
+.banner .previous i {
   display: block;
 }
-.banner .owl-next i {
+.banner .next i {
   display: block;
 }
 
