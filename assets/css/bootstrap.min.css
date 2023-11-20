@@ -245,7 +245,8 @@ select {
 [type="reset"],
 [type="submit"],
 button {
-  -webkit-appearance: button;
+  -webkit-appearance: button; /* For WebKit browsers */
+  appearance: button; /* Standard appearance property */
 }
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -295,7 +296,9 @@ progress {
 }
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  -webkit-appearance: none; /* For WebKit browsers */
+  appearance: none; /* Standard appearance property */
+  /* Additional styles */
 }
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -3526,8 +3529,9 @@ input[type="submit"].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  -webkit-print-color-adjust: exact; /* For WebKit browsers */
+  print-color-adjust: exact; /* Standard print-color-adjust property */
+  /* Additional styles */
 }
 .custom-control-inline {
   display: -ms-inline-flexbox;
