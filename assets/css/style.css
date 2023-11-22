@@ -400,9 +400,19 @@ h6 {
   border-color: #b5dc14;
 }
 .btn-outline-info:hover {
-  color: #2b3445;
+  color: #ffffff;
   background-color: #0d6488;
   border-color: #0d6488;
+}
+.dual-color-line {
+  height: 6px; /* Adjust the height of the line */
+  background: linear-gradient(to right, #0B6588 50%, #B6DC17 50%); /* Adjust colors and position */
+  margin: 0;
+}
+.white-line {
+  height: 2px; /* Adjust the height of the line */
+  background: rgb(255, 255, 255); /* Adjust colors and position */
+  margin: 0;
 }
 
 /*------------------
