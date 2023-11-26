@@ -194,9 +194,37 @@ h6 {
 /*------------------
   Header Style 1
 --------------------*/
-.Header .navbar {
+.Header {
+  position: relative;
+}
+.navbar {
+  position: relative; /* Ensure it establishes a stacking context */
+}
+.dual-color-line {
+  height: 8px;
+  background: linear-gradient(to right, #0B6588 50%, #B6DC17 50%);
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; /* Set a value higher than the rest of the navbar */
+}
+.white-line {
+  height: 2px; /* Adjust the height of the line */
+  background: rgba(255, 255, 255, 0.554); /* Adjust colors and position */
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.Header .nav-sticky {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 5px 0px;
-  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 20px rgba(5, 47, 97, 0.08);
+  z-index: 9998; /* Adjust this value based on the required layering */
 }
 .Header .navbar .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.465);
@@ -404,17 +432,26 @@ h6 {
   background-color: #0d6488;
   border-color: #0d6488;
 }
-.dual-color-line {
-  height: 6px; /* Adjust the height of the line */
-  background: linear-gradient(to right, #0B6588 50%, #B6DC17 50%); /* Adjust colors and position */
-  margin: 0;
-}
-.white-line {
-  height: 2px; /* Adjust the height of the line */
-  background: rgb(255, 255, 255); /* Adjust colors and position */
-  margin: 0;
+/* Basic button styles */
+.phone-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0d6488;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
+.phone-button:hover {
+  background-color: #B6DC17;
+  color: #000;
+}
+
+/* Adjust the icon placement */
+.phone-button i {
+  margin-right: 5px; /* Spacing between icon and text */
+}
 /*------------------
   Block - 108
 --------------------*/
