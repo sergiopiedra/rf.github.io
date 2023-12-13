@@ -1840,6 +1840,9 @@ h6 {
   filter: grayscale(0);
 }
 
+.p-disclaimer {
+  font-size: 10px; /* Adjust the font size as desired */
+}
 /*------------------
   Block - 198
 --------------------*/
