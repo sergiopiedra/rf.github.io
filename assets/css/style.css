@@ -1158,8 +1158,14 @@ h6 {
   transform: translateX(calc(100% * (var(--tab-index, 0))));
 }
 
-.tabs input[name="tab-control"]:checked:nth-of-type(1) ~ .content > section:nth-child(1),
-.tabs input[name="tab-control"]:checked:nth-of-type(2) ~ .content > section:nth-child(2) {
+.tabs
+  input[name="tab-control"]:checked:nth-of-type(1)
+  ~ .content
+  > section:nth-child(1),
+.tabs
+  input[name="tab-control"]:checked:nth-of-type(2)
+  ~ .content
+  > section:nth-child(2) {
   display: block;
 }
 
@@ -1520,8 +1526,7 @@ h6 {
   line-height: 1.25;
   margin-bottom: 2px;
   color: #333 !important;
-    position: relative; /* Add this line */
-
+  position: relative; /* Add this line */
 }
 .projects .projects-wrap.style-01 .content .post-categories {
   color: #116388;
@@ -1536,7 +1541,6 @@ h6 {
 .projects .projects-wrap.style-01 .content a {
   color: #116388;
   box-shadow: #116388 0 -1px 0 inset;
-
 }
 .projects .projects-wrap.style-01 .content a:hover {
   color: #b6dc17;
@@ -2808,11 +2812,11 @@ h6 {
   width: 0%;
   left: 0;
   bottom: 0;
-  background-color: #0072fd;
+  background-color: #b6dc17;
   transition: 0.3s all ease-in-out;
 }
 .footer .rffooter-widget ul li a:hover {
-  color: #0072fd;
+  color: #b6dc17;
   margin-left: 10px;
 }
 .footer .rffooter-widget ul li a:hover:after {
