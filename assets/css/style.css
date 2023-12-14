@@ -1201,6 +1201,8 @@ h6 {
   opacity: 1; /* Mantenemos la opacidad al 100% para la pestaña seleccionada */
 }
 
+
+
 /*------------------
   CONTACT END
 --------------------*/
@@ -1289,6 +1291,23 @@ h6 {
   -ms-transform: scaleY(1.099);
   transform: scaleY(1.099);
   color: #fff;
+}
+
+.text-about {
+  color: #222222;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 0.025em;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+.text-dislaimer{
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 0.025em;
+  font-size: 13px;
 }
 
 /*------------------
