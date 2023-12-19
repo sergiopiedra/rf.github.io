@@ -1193,14 +1193,14 @@ h6 {
 }
 
 /* Reducir la opacidad de las imágenes no seleccionadas */
-.tabs input[name="tab-control"]#tab1:checked ~ ul li[title="Nosara"] img,
-.tabs input[name="tab-control"]#tab2:checked ~ ul li[title="Nicoya"] img {
+.tabs input[name="tab-control"]#Nicoya:checked ~ ul li[title="Nosara"] img,
+.tabs input[name="tab-control"]#Nosara:checked ~ ul li[title="Nicoya"] img {
   opacity: 0.5; /* Puedes ajustar el valor de opacidad según tu preferencia */
 }
 
 /* Mantener la opacidad normal para la imagen seleccionada */
-.tabs input[name="tab-control"]#tab1:checked ~ ul li[title="Nicoya"] img,
-.tabs input[name="tab-control"]#tab2:checked ~ ul li[title="Nosara"] img {
+.tabs input[name="tab-control"]#Nicoya:checked ~ ul li[title="Nicoya"] img,
+.tabs input[name="tab-control"]#Nosara:checked ~ ul li[title="Nosara"] img {
   opacity: 1; /* Mantenemos la opacidad al 100% para la pestaña seleccionada */
 }
 
@@ -1239,7 +1239,6 @@ h6 {
     margin-bottom: 20px; /* Agrega un margen inferior para separar del texto */
   }
 }
-
 
 /*------------------
   CONTACT END
@@ -1340,7 +1339,7 @@ h6 {
   line-height: 1.4;
   font-family: "Poppins", sans-serif;
 }
-.text-dislaimer{
+.text-dislaimer {
   color: #222222;
   margin-top: 0;
   margin-bottom: 0px;
