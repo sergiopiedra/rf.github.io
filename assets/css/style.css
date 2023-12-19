@@ -724,6 +724,10 @@ h6 {
   font-size: 18px;
   text-align: justify;
 }
+.dec-text {
+  font-size: 18px;
+  text-align: justify;
+}
 .about .single-popup-wrap {
   position: relative;
 }
@@ -1144,7 +1148,6 @@ h6 {
 /* Estilos para el título de cada sección */
 .tabs .content section h2 {
   color: #0b6588;
-  display: none;
 }
 
 /* Efecto después del hover en enlaces */
@@ -1201,6 +1204,41 @@ h6 {
   opacity: 1; /* Mantenemos la opacidad al 100% para la pestaña seleccionada */
 }
 
+.content-text {
+  display: flex;
+  align-items: center;
+}
+
+.contact-image {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(71, 71, 71, 0.608) 0px 1px 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de los elementos a columnas */
+}
+
+.contact-info h2,
+.contact-info p {
+  margin: 0; /* Elimina el margen predeterminado para un mejor espaciado */
+}
+
+@media (max-width: 768px) {
+  .content-text {
+    flex-direction: column; /* Coloca el texto debajo de la imagen */
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+  }
+
+  .contact-image {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-right: 0; /* Elimina el margen derecho */
+    margin-bottom: 20px; /* Agrega un margen inferior para separar del texto */
+  }
+}
 
 
 /*------------------
